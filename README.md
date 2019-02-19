@@ -5,7 +5,7 @@ This repository contains a single self-contained example with all files require 
 # Prerequisites
 
 Before you can run this example, make sure you have installed:
-- [.Net Core SDK with at least version 2.0](https://dotnet.microsoft.com/download)
+- [.Net Core SDK](https://dotnet.microsoft.com/download) with at least version 2.0
 
 You can use any editor you like, but I recommend installing VS Code and the C# extensions as they work well on all operating systems:
 - [VS Code](https://code.visualstudio.com/)
