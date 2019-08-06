@@ -4,10 +4,10 @@ using SME;
 
 namespace GettingStarted
 {
-	class MainClass
-	{
-		public static void Main(string[] args)
-		{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
 
             using(var sim = new Simulation())
             {
@@ -26,12 +26,12 @@ namespace GettingStarted
                     .AddTopLevelInputs(simulator.Data)
                     .BuildCSVFile()
                     .BuildVHDL()
-    			    .Run();
+                    .Run();
 
                 // After `Run()` has been invoked the folder
                 // `output/vhdl` contains a Makefile that can
                 // be used for testing the generated design
             }
-		}
-	}
+        }
+    }
 }
