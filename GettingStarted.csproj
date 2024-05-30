@@ -9,7 +9,7 @@
 
     <!-- Remove these packages as required by the OS you are using -->
     <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.6.20" />
-    <PackageReference Include="runtime.linux-x64.CoreCompat.System.Drawing" Version="1.0.0-beta002" />
+    <PackageReference Include="runtime.linux-x64.CoreCompat.System.Drawing" Version="8.0.6" />
   </ItemGroup>
 
   <PropertyGroup>
